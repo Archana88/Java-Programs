@@ -1,0 +1,34 @@
+public class sc1{
+	public static void main(String args[]){
+		int i;
+		for(i=0;i<12;i++){
+			switch(i)
+			{
+			case 0:
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			{
+				System.out.println("i value is less than 5");
+				break;
+			}
+			case 5:
+			case 6:
+			case 7:
+			case 8:
+			case 9:
+			{
+				System.out.println("i value is less than 10");
+				break;
+			}
+			default:
+			{
+				System.out.println("i value is greater than or equal to 10");
+				break;
+			}
+		}
+		}
+	}
+}
+
